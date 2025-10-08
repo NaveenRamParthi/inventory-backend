@@ -2,10 +2,10 @@
   "name": "captone-server",
   "version": "1.0.0",
   "description": "Inventory Billing Backend",
-  "main": "src/index.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node src/index.js",
-    "dev": "nodemon src/index.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "keywords": [],
   "author": "Naveen",
