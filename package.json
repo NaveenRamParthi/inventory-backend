@@ -1,14 +1,14 @@
 {
   "name": "captone-server",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Inventory Billing Backend",
+  "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js",
     "dev": "nodemon src/index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Naveen",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
@@ -18,5 +18,8 @@
   },
   "devDependencies": {
     "nodemon": "^3.1.10"
+  },
+  "engines": {
+    "node": ">=18.x"
   }
 }
